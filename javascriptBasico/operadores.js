@@ -30,3 +30,11 @@ var a = 1;// asigna el valor 1 a la variable a
 var edad =40;
 edad++;
 
+//ejercicio
+function solution(secreto){
+    return (Boolean(secreto>5))
+}
+
+console.log(solution(1))
+console.log(solution(5))
+console.log(solution(10))
